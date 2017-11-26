@@ -32,6 +32,14 @@ header {
   padding: 1.65rem;
 }
 
+.browser-message {
+  font-size: 10px;
+  color: #ffc600;
+  font-weight: bold;
+  padding: .5rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 .grid {
   margin: 0 auto;
   display: grid;
@@ -58,6 +66,7 @@ header {
   color: #ffc600;
   background: rgba(0,0,0,0.3);
   text-shadow: 0 0 .5rem black;
+  cursor: pointer;
 }
 
 .playing {
@@ -77,9 +86,9 @@ kbd {
 
 @media only screen and (min-width: 460px) {
   header {
-    padding-top: 2.5rem;
+    padding: 2.5rem;
     text-align: center;
-    height: 20vh;
+    min-height: 20vh;
   }
   .grid {
     align-content: start;
@@ -102,5 +111,11 @@ kbd {
 @media only screen and (min-width: 720px) {
   .grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@supports(display: grid) {
+  .browser-message {
+    display: none;
   }
 }

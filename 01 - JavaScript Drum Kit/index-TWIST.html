@@ -12,6 +12,7 @@
   <header>
     <h1>Doctor Who Sound Board</h1>
     <p>Press a number to play a transdimensional sound byte!</p>
+    <p class="browser-message">The site is optimized using grid layout. Your current browser does not seem to support it. The site will work, but you should update your browser as many site will start using grid</p>
   </header>
 
   <main>
@@ -77,8 +78,8 @@
     function playSound(e) {
       const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
       const key = document.querySelector(`.clip[data-key="${e.keyCode}"]`);
-      if (!audio) return; //Stop function from running all together.
-      audio.currentTime = 0; //rewinds sound by to prevent from waiting until byte is done.
+      if (!audio) return; //if wrong key code will end here
+      audio.currentTime = 0; //restart from beginning if already playing
       audio.play();
       key.classList.add('playing');
     }
