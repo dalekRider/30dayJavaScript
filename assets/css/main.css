@@ -131,6 +131,6 @@ header {
 
 @supports(display: grid) {
   .browser-message {
-    /*display: none;*/
+    display: none;
   }
 }
