@@ -1,0 +1,136 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(http://twofistedmedia.com/hosted/pexels-photo-14676.png) bottom fixed no-repeat;
+  background-size: cover;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Raleway', Arial, sans-serif;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', Arial, sans-serif;
+}
+
+header {
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.header__title {
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.header__text {
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffc600;
+  margin-top: .5rem;
+  text-transform: uppercase;
+}
+
+.browser-message {
+  width: 60%;
+  margin: 0.5rem auto;
+  font-size: 10px;
+  color: #ffc600;
+  font-weight: bold;
+  padding: .5rem;
+  background: rgba(255, 255, 255, 0.1);
+  line-height: 1.4;
+}
+
+.grid {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-template-columns: 200px;
+  justify-content: space-around;
+  margin-bottom: 4.5rem;
+}
+
+.grid__item {
+  text-align: center;
+  border: 3px solid #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  height: 200px;
+}
+
+.grid__text {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffc600;
+  text-transform: uppercase;
+  padding: 1rem 0 0;
+}
+
+.grid__day {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.grid__link {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.grid__link:hover {
+  color: #ffc600;
+}
+
+.grid__link--disabled {
+  color: #888;
+  cursor: not-allowed;
+}
+
+.grid__link--disabled:hover {
+  color: #888;
+}
+
+@media only screen and (min-width: 480px) {
+  .grid {
+    grid-template-columns: 200px 200px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .grid {
+    grid-template-columns: 200px 200px 200px;
+  }
+}
+
+@media only screen and (min-width: 920px) {
+  .grid {
+    grid-template-columns: 200px 200px 200px 200px;
+  }
+}
+
+
+@media only screen and (min-width: 1140px) {
+  .grid {
+    grid-template-columns: 200px 200px 200px 200px 200px;
+  }
+}
+
+@supports(display: grid) {
+  .browser-message {
+    /*display: none;*/
+  }
+}

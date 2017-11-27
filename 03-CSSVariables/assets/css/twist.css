@@ -130,11 +130,15 @@ h1 {
 }
 
 @media only screen and (min-width: 960px) {
+  h1 {
+    font-size: 3.5rem;
+  }
   .main {
     flex-direction: row;
     justify-content: flex-end;
   }
   .control {
+    padding-top: 2rem;
     max-width: 320px;
     margin: 1.5rem;
   }
