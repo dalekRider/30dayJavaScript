@@ -6,7 +6,7 @@ canvas.height = window.innerHeight;
 ctx.strokeStyle = '#B4D455';
 ctx.lineJoin = 'round';
 ctx.lineCap = 'round';
-ctx.lineWidth = 50;
+ctx.lineWidth = 100;
 
 
 
@@ -33,7 +33,7 @@ function draw(e) {
     hue = 0;
   }
 
-  if(ctx.lineWidth >= 50 || ctx.lineWidth <= 1) {
+  if(ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
     direction = !direction;
   }
   if (direction) {
