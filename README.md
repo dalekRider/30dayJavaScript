@@ -11,7 +11,7 @@ I plan to follow the tutorials complete the projects daily. This repsository wil
 Structure:
 Each daily challenge will have its own folder. Folders will consist of one index.html file with the original solution, one index.html file with the twisted verstion and an asset folder with supporting files, like images, CSS, JS etc.
 
-My goal for this challenge is to gain additional knowledge of JavaScript, reinforce my current understanding of JavaScript and get more practical application experience. Use it or lose it right? With this being Thanksgiving I will start Day 1 on Friday, Nov 22nd 2017.
+My goal for this challenge is to gain additional knowledge of JavaScript, reinforce my current understanding of JavaScript and get more practical application experience. Use it or lose it right? With this being Thanksgiving I will start Day 1 on Friday, Nov 24th 2017.
 
 Allons y!!!
 
