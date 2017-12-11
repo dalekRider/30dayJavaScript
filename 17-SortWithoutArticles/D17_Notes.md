@@ -7,7 +7,7 @@ The object of this lesson is to sort band names in the bands array alphabeticall
 3. Create function to replace 'the', 'a', 'an' with '' using regex.
 4. implement strip function in sort if statement.
 
-Using strip function in the sort if statement only strips/trims the articles 'the', 'a', and 'an' during the compare process of the sort method. The final output still maintains the original band name in its entirety. You can find out more about that sort method [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort, "MDN Array.prototype.sort()").
+Using strip function in the sort if statement only strips/trims the articles 'the', 'a', and 'an' during the compare process of the sort method. The final output still maintains the original band name in its entirety. You can find out more about that sort method [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort "MDN Sort Method").
 
 ### Twisted Possibilities:
 * Dr Who Bestiary list.
