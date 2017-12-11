@@ -18,6 +18,6 @@ Todays lesson covers using the mousemove event to cause the titles text-shadow t
 We had to make some adjustments, which should be clarified.  The Event is listening on the hero div, but if there are children elements it will give us the x and y of the actual element we are hovering, in this case the child element. So what we can do is create an if statement. If this (div named hero) does not equal the event target, then we update x by adding x to the event.target.offsetLeft, and offsetTop for the y value.
 
 ### Twisted Possibilities
- -More Subtle version in mock site.
- -Blur event on mousemove, focus when at correct origin point.
- -Simple Background image move.
+ * More Subtle version in mock site.
+ * Blur event on mousemove, focus when at correct origin point.
+ * Simple Background image move.
