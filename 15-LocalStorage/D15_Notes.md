@@ -33,8 +33,8 @@ What we have done in this lesson:
 If we try using a normal event listener directly on the list item it will fail, because those items do not exist on the initial page load. If we move the event listener to after the populate list function and add an item it fails again due to a populate list occuring before the list items are created again. To get around this we used _Event Delegation_. Essentially we put the event listener on the parent element which already exist on the page at initial load. We then check to see if a target child element was click, if so the event passes and is triggered. This is a bit of a confusing concept. I found [this](https://davidwalsh.name/event-delegate 'David Walsh Event Delegation') article and will revisit my assessment after reviewing it.
 
 ### Twisted Possibilities:
-To-Do list
-Parts Checklist
-Grill Line Order list
+* To-Do list
+* Parts Checklist
+* Grill Line Order list
 
 Add Functionality: Toggle All Function, Remove Item Function, Remove All Function
