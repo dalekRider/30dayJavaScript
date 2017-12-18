@@ -1,6 +1,6 @@
 
 const arrow = document.querySelector('.arrow');
-const speed = document.querySelector('.speed');
+const speed = document.querySelector('.speed-value');
 
 //Watch version get position watch gives update based on change
 navigator.geolocation.watchPosition((data) => {
