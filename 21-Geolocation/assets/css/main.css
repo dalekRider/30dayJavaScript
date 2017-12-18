@@ -35,6 +35,14 @@ h1 {
   align-items: center;
 }
 
+.longLat {
+  font-size: 0.25rem;
+}
+
+.longLat span {
+  margin-right: 15px;
+}
+
 .units {
   font-size: 15px;
 }
