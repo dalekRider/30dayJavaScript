@@ -4,7 +4,7 @@ const speed = document.querySelector('.speed');
 
 //Watch version get position watch gives update based on change
 navigator.geolocation.watchPosition((data) => {
-  console.log(data);
+  //console.log(data);
   speed.textContent = data.coords.speed;
   arrow.style.transform = `rotate(${data.coords.heading}deg)`;
 }, (err) => {
