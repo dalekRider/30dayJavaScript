@@ -5,7 +5,7 @@ I have decided to pick up the gauntlet and throw myself into Wes Bos' 30 day Jav
 
 https://javascript30.com/<br />
 https://github.com/wesbos/JavaScript30<br />
-You can track my progress [here](https://dalekrider.github.io/30dayJavaScript/ "My #javascript30 Page"):
+You can track my progress [HERE](https://dalekrider.github.io/30dayJavaScript/ "My #javascript30 Page"):
 
 I plan to follow the tutorials complete the projects daily. This repsository will hold my completed versions of the challenge. If possible I will try to create an additional version of the the challenge with a twist. Additional versions will have different HTML/CSS. They will also use the javascript to acheive a similar but different goal from the tutorial. One example would be instead of a drum machine, maybe make a soundboard. 
 
