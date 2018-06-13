@@ -78,7 +78,7 @@ function greenScreen(pixels) {
     levels[input.name] = input.value;
   });
 
-  console.log(levels);
+  //console.log(levels);
 
   for (i = 0; i < pixels.data.length; i = i + 4) {
     red = pixels.data[i + 0];
